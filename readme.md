@@ -37,3 +37,7 @@
         adb -s 127.0.0.1:62001 shell am start -n com.lilithgame.roc.gp.tw/com.harry.engine.MainActivity
 
     
+-   截圖
+
+        截圖路徑:/storage/emulated/0/照片檔案名稱.格式
+        adb -s 127.0.0.1:62001 shell screencap -p /sdcard/screencap.png
